@@ -1,0 +1,68 @@
+.custom-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 0.875rem 2rem;
+    font-family: var(--font-primary);
+    font-size: var(--text-base);
+    font-weight: 600;
+    border-radius: 1.25rem;
+    border: none;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    color: white;
+    min-width: 160px;
+}
+
+.custom-button.primary {
+    background: var(--gradient-primary);
+    box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.25), 0 4px 6px -2px rgba(37, 99, 235, 0.1);
+}
+
+.custom-button.secondary {
+    background: white;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+
+.custom-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    filter: brightness(1.1);
+}
+
+.custom-button:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.custom-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    filter: grayscale(0.5);
+}
+
+.button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform var(--transition-base);
+}
+
+.custom-button:hover .button-icon {
+    transform: translateX(4px);
+}
+
+[dir="rtl"] .button-icon {
+    transform: rotate(180deg);
+}
+
+[dir="rtl"] .custom-button:hover .button-icon {
+    transform: rotate(180deg) translateX(4px);
+}
+
+/* Ensure text doesn't wrap too easily */
+.button-text {
+    white-space: nowrap;
+}

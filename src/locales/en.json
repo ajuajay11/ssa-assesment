@@ -1,0 +1,169 @@
+{
+    "application": {
+        "title": "Social Support Application",
+        "steps": {
+            "personalinformation": "Personal Information",
+            "financialinformation": "Family & Financial Info",
+            "additionalinformation": "Situation Descriptions",
+            "completed": "All steps completed",
+            "all_done": "All Done!",
+            "success": "Your application has been submitted successfully.",
+            "success_submit": "Form submitted successfully!"
+        },
+        "sections": {
+            "step": "Step"
+        },
+        "fields": {
+            "name": "Full Name",
+            "nationalId": "National ID",
+            "dob": "Date of Birth",
+            "gender": "Gender",
+            "address": "Address",
+            "city": "City",
+            "country": "Country",
+            "phone": "Phone Number",
+            "email": "Email",
+            "maritalStatus": "Marital Status",
+            "dependents": "Number of Dependents",
+            "employmentStatus": "Employment Status",
+            "monthlyIncome": "Monthly Income",
+            "housingStatus": "Housing Status",
+            "currentFinancialSituation": "Current Financial Situation",
+            "employmentCircumstances": "Employment Circumstances",
+            "reasonForApplying": "Reason for Applying"
+        },
+        "maritalStatus": {
+            "single": "Single",
+            "married": "Married",
+            "divorced": "Divorced",
+            "widowed": "Widowed"
+        },
+        "employmentStatus": {
+            "employed": "Employed",
+            "self-employed": "Self-Employed",
+            "unemployed": "Unemployed",
+            "retired": "Retired"
+        },
+        "housingStatus": {
+            "own": "Own",
+            "rent": "Rent",
+            "living-with-family": "Living with Family"
+        },
+        "gender": {
+            "select": "Select",
+            "male": "Male",
+            "female": "Female",
+            "other": "Other"
+        },
+        "buttons": {
+            "back": "Back",
+            "next": "Next Step",
+            "submit": "Confirm & Submit",
+            "reset": "Reset Form"
+        },
+        "validation": {
+            "required": "{{field}} is required",
+            "phone_short": "Phone seems too short",
+            "email_invalid": "Invalid email",
+            "min_zero": "Must be 0 or more",
+            "min_income": "Income must be more than 0",
+            "min_positive": "Value must be more than 0",
+            "min_chars": "Min {{count}} characters",
+            "max_chars": "Max {{count}} characters",
+            "alphabetical_only": "{{field}} should only contain letters",
+            "alphanumeric_only": "{{field}} should only contain letters and numbers",
+            "alphanumeric_punctuation_only": "{{field}} should only contain letters, numbers, and common symbols (.,#-)"
+        },
+        "autoGenerate": {
+            "helpMe": "Help Me",
+            "helpMeWrite": "Help Me Write — {{label}}",
+            "noSuggestion": "No suggestion received. Please generate again.",
+            "error": "Something went wrong. Please generate again.",
+            "cancel": "Cancel",
+            "generateAgain": "Generate again",
+            "editSuggestion": "Edit suggestion",
+            "edit": "Edit",
+            "accept": "Accept"
+        },
+        "select": {
+            "placeholder": "Select an option"
+        }
+    },
+    "home": {
+        "hero": {
+            "title": "Your Path to",
+            "titleSpan": " Financial Support",
+            "description": "Apply for government assistance with ease. Our AI-powered platform guides you through every step, making the application process simple, fast, and accessible for everyone.",
+            "startBtn": "Start Application",
+            "learnMore": "Learn More"
+        },
+        "stats": {
+            "applications": "Applications Processed",
+            "successRate": "Success Rate",
+            "aiAssistance": "AI Assistance"
+        },
+        "floating": {
+            "approval": "Quick Approval",
+            "approvalSub": "Fast processing",
+            "ai": "AI Powered",
+            "aiSub": "Smart assistance",
+            "secure": "Secure & Private",
+            "secureSub": "Data protected"
+        },
+        "features": {
+            "title": "Why Choose Our Platform",
+            "subtitle": "We've designed every feature to make your application experience seamless and stress-free",
+            "wizard": {
+                "title": "Multi-Step Form Wizard",
+                "desc": "Navigate through a simple 3-step process with clear progress tracking and the ability to save your progress at any time."
+            },
+            "ai": {
+                "title": "AI Writing Assistant",
+                "desc": "Get intelligent suggestions for describing your situation with our integrated AI assistant, making it easier to express your needs."
+            },
+            "bilingual": {
+                "title": "Bilingual Support",
+                "desc": "Full support for English and Arabic (RTL) languages, ensuring accessibility for all citizens regardless of language preference."
+            },
+            "save": {
+                "title": "Save Your Progress",
+                "desc": "Your application data is automatically saved locally, so you can return anytime to complete your submission without losing information."
+            },
+            "responsive": {
+                "title": "Fully Responsive",
+                "desc": "Optimized for all devices - desktop, tablet, and mobile. Apply from anywhere, at any time, on any device."
+            },
+            "accessibility": {
+                "title": "Accessibility First",
+                "desc": "Built with ARIA roles and keyboard navigation support, ensuring everyone can access and use the platform effectively."
+            }
+        }
+    },
+    "about": {
+        "title": "About Page",
+        "toHome": "to Home"
+    },
+    "nav": {
+        "home": "Home",
+        "apply": "Apply",
+        "about": "About",
+        "skipToContent": "Skip to content"
+    },
+    "footer": {
+        "rights": "All rights reserved",
+        "name": "SSA",
+        "description": "Empowering citizens with seamless access to government support through advanced AI technology. Simple, secure, and accessible for everyone.",
+        "quickLinks": "Quick Links",
+        "resources": "Resources",
+        "contact": "Contact Us",
+        "help": "Help Center",
+        "faq": "FAQs",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    },
+    "error404": {
+        "title": "Page Not Found",
+        "description": "The page you are looking for doesn't exist or has been moved. Use the button below to head back home.",
+        "goHome": "Go Back Home"
+    }
+}
